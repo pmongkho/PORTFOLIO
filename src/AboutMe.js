@@ -3,7 +3,6 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Card from "react-github-stats-card/dist/Card";
 import "./AboutMe.css";
-import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 import Projects from "./Projects";
 
@@ -13,10 +12,9 @@ function AboutMe() {
 	return (
 		<div className="AboutMe">
 			<div className="">
-		
-					{" "}
-        <div className="container__AboutMe">
-          <div className="left">
+				{" "}
+				<div className="container__AboutMe">
+					<div className="left">
 						<div className="image">
 							<img
 								className="AboutMeimage"
@@ -54,10 +52,13 @@ function AboutMe() {
 							</a>
 						</div>
 					</div>
-					<div className="right">
-						<Card username="pmongkho" theme={true} style="height:100%;"/>
-					</div>
-        </div>
+					{/* <div className="right">
+						<Card
+							username="pmongkho"
+							theme={true}
+						/>
+					</div> */}
+				</div>
 				<Projects />
 			</div>
 		</div>
