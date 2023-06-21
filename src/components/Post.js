@@ -1,6 +1,6 @@
 import { Avatar } from '@mui/material';
 import React from 'react'
-import './Post.css'
+import '../styles/Post.css'
 import DeleteBlock from './DeleteBlock';
 
 function Post({ id, profilePic, image, username, timestamp, message }) {

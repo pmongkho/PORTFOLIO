@@ -1,0 +1,33 @@
+
+body {
+  background: #ded7e2;
+  overflow-x: hidden;
+}
+.app__body {
+  display: flex;
+}
+
+*{
+    margin: 0;
+  padding: 0;
+   /* outline:1px solid red; */
+   list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.app{
+    margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+        height: 100%;
+
+       
+}
